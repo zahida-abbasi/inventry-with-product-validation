@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Inventory</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h2>Milestone 4-5:Input Fields to Add New Products & Basic Validation</h2>
+        <h3>By Zahida Abbasi</h3>
+
+    </header>
+    <table id="inventoryTable">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Products will be dynamically inserted here -->
+        </tbody>
+    </table>
+
+    <!-- Input fields for adding new products -->
+    <div class="input-container">
+        <input type="text" id="productName" placeholder="Product Name">
+        <input type="number" id="productQuantity" placeholder="Quantity">
+        <input type="number" id="productPrice" placeholder="Price">
+        <button id="addProductBtn">Add Product</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
